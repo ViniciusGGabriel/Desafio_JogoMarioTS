@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Mario";
-  src: url(../../src/SuperMario256.ttf);
+  src: url(../src/SuperMario256.ttf);
 }
 
 * {
