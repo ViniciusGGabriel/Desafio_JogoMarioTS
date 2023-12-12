@@ -26,7 +26,7 @@ const loop = setInterval(() => {
         mario.style.animationPlayState = "paused";
         mario.style.bottom = `${mario_position}px`;
         nuvem.style.animationPlayState = "paused";
-        mario.src = "../src/game-over.png";
+        mario.src = "./src/game-over.png";
         mario.style.width = "75px";
         mario.style.margin = "50px";
         reload.innerHTML = "Game Over";

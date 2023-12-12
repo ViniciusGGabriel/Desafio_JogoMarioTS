@@ -41,7 +41,7 @@ const loop = setInterval(() => {
     nuvem.style.animationPlayState = "paused";
 
     /* Troca a imagem quando o mario morre */
-    mario.src = "../src/game-over.png";
+    mario.src = "./src/game-over.png";
     mario.style.width = "75px";
     mario.style.margin = "50px";
 
